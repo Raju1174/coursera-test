@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+.demo
+{
+    border:3px solid black;
+    width:30%;
+    height: 200px;
+    float: left;
+    margin:10px;
+    margin-top:50px;
+    background-color: gray;
+    
+    overflow: hidden;
+    position: relative;
+
+
+}
+#heading{
+    text-align: center;
+}
+#he1{
+    border: 2px solid black; 
+    background-color: rgb(187, 255, 0);
+    
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    margin-top:-5px;
+    margin-right: -2px;  
+    
+}
+#he2
+{
+    border: 2px solid black; 
+    background-color: rgb(238, 12, 12);
+    
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    margin-top:-5px;
+    margin-right: -2px;
+    color:white;
+    padding-left:20px;
+    
+
+
+}
+#he3{
+    border: 2px solid black; 
+    background-color: rgb(175, 133, 18);
+   
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    margin-top:-5px;
+    margin-right: -2px; 
+    padding-left:20px;
+    
+}
+.p1{
+    
+    
+    padding-left: 15px;
+    float:left;
+    padding-top: 40px;
+    
+}
+
+/* Media queries for window*/
+@media (min-width:992px) {
+    .demo
+{
+    border:3px solid black;
+    width:30%;
+    height: 200px;
+    float: left;
+    margin:10px;
+    margin-top:50px;
+    background-color: gray;
+    
+    overflow: hidden;
+    position: relative;
+
+
+}
+    
+  
+}
+/* Media queries for tablets*/
+@media (min-width: 768px) and (max-width:991px) {
+    .demo
+    {
+        border:3px solid black;
+        width:39%;
+        height: 250px;
+        float: left;
+        margin:40px;
+        margin-top:50px;
+        background-color: gray;
+        
+        overflow: hidden;
+    
+    
+    }
+    #demo3{
+        width:88%;
+        margin-top:-10px;
+    }
+    
+}
+/* Media queries for small Phone*/
+@media (max-width:767px){
+    .demo
+    {
+        border:3px solid black;
+        width:90%;
+        height: 250px;
+        float: left;
+        margin:40px;
+        margin-top:20px;
+        background-color: gray;
+        
+        overflow: hidden;
+    
+    
+    }
+}
+
+
