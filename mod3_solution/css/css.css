@@ -1,0 +1,65 @@
+#header-nav{
+    background-color: darkblue;
+    border-radius: 0px;
+    border:0px;
+    height: 70px;
+}
+
+body{
+    background-color:cadetblue;
+
+}
+#head{
+    color:white;
+    margin-top: 5px;
+    text-shadow: 3px 3px 1px rgb(143, 221, 18);
+    
+
+
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#li
+{
+    text-align: center;
+    color:white;
+    
+}
+
+#main-content{
+    /* border: 3px solid red; */
+    height: 1800px;
+    margin-top:90px;
+    
+}
+
+#main-content, h2{
+    text-align: center;
+    color:White;
+    padding-bottom:4px;
+    padding-top:-80px;
+}
+
+.container,.row ,p{
+    text-align: justify;
+    color:white;
+    padding:20px;
+    background-color:darkslategray
+}
+#menu-item{
+margin-top:-30px;
+color:rgb(190, 17, 224)
+}
+
+
+
+
+
+
+
+
+
+
